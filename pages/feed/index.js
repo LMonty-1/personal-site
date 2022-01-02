@@ -8,7 +8,9 @@ function Feed() {
 	return (
 		<Fragment>
 			<Navbar />
-			<h1> Some Great Articles to view </h1>
+			<div class="text-blue-600">
+				<h1> The Feed Page! </h1>
+			</div>
 			<ul>
 				<li>
 					<Link href="feed/Something-Cool-With-Haskell">

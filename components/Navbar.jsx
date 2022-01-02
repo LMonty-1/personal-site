@@ -10,12 +10,12 @@ export const Navbar = (props) => {
 					<button class="nav-bar-button">Home</button>
 				</Link>
 				<Link href="/feed">
-					<button class="nav-bar-button">Pages</button>
+					<button class="nav-bar-button">Feed</button>
 				</Link>
-				<Link href="/feed">
+				<Link href="/about">
 					<button class="nav-bar-button">About</button>
 				</Link>
-				<Link href="/feed">
+				<Link href="/contact">
 					<button class="nav-bar-button">Contact</button>
 				</Link>
 			</div>
