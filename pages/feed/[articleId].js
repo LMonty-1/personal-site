@@ -12,6 +12,9 @@ function Feed() {
 	return (
 		<div>
 			<Navbar />
+			<div class="text-blue-600">
+				<h1> The Article Page(s)! </h1>
+			</div>
 			<h1> You've Requested {requestedArticle} </h1>
 		</div>
 	);
