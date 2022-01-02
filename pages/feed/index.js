@@ -13,8 +13,14 @@ function Feed() {
 			</div>
 			<ul>
 				<li>
-					<Link href="feed/Something-Cool-With-Haskell">
-						Something Cool With Haskell
+					<Link href="feed/Haskell-Sweeper">Haskell Sweeper</Link>
+				</li>
+				<li>
+					<Link href="feed/CATLab">CATLab</Link>
+				</li>
+				<li>
+					<Link href="feed/Exorbiant-Caffeine-Consumption">
+						Exorbiant Caffeine Consumption
 					</Link>
 				</li>
 			</ul>
