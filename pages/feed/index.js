@@ -11,11 +11,9 @@ function Feed() {
 			<h1> Some Great Articles to view </h1>
 			<ul>
 				<li>
-					{' '}
-					<a href="feed/Something-Cool-With-Haskell">
-						{' '}
-						Something Cool With Haskell{' '}
-					</a>{' '}
+					<Link href="feed/Something-Cool-With-Haskell">
+						Something Cool With Haskell
+					</Link>
 				</li>
 			</ul>
 		</Fragment>
