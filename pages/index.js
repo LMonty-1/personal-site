@@ -10,7 +10,6 @@ function HomePage() {
 			</div>
 			<div>
 				<p>
-					{' '}
 					Welcome to the Site! If you're seeing this, we're still under
 					constructions. Know that there will be more coming soon! In place of
 					this text, I will tell you all about the cool projects and experience
