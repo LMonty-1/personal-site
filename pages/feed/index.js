@@ -2,13 +2,11 @@
 
 import Link from 'next/link';
 import { Fragment } from 'react';
-import Navbar from '../../components/Navbar';
 
 function Feed() {
 	return (
 		<Fragment>
-			<Navbar />
-			<div class="text-blue-600">
+			<div>
 				<h1> The Feed Page! </h1>
 			</div>
 			<ul>

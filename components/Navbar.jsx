@@ -5,18 +5,18 @@ import { Fragment } from 'react';
 export const Navbar = (props) => {
 	return (
 		<div>
-			<div class="flex justify-start inset-x-0 top-0 h-16 border-2 border-rose-600">
+			<div>
 				<Link href="/">
-					<button class="nav-bar-button">Home</button>
+					<button>Home</button>
 				</Link>
 				<Link href="/feed">
-					<button class="nav-bar-button">Feed</button>
+					<button>Feed</button>
 				</Link>
 				<Link href="/about">
-					<button class="nav-bar-button">About</button>
+					<button>About</button>
 				</Link>
 				<Link href="/contact">
-					<button class="nav-bar-button">Contact</button>
+					<button>Contact</button>
 				</Link>
 			</div>
 		</div>

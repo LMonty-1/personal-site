@@ -1,5 +1,6 @@
 // pages/index.js
 import Link from 'next/link';
+import Image from 'next/image';
 
 const HomePage = () => {
 	return (
@@ -9,7 +10,7 @@ const HomePage = () => {
 				<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 					<div className="flex justify-between h-16">
 						<div className="flex-shrink-0 flex items-center">
-							<img className="h-8 w-8" src="/favicon.ico" alt="Logo" />
+							<Image className="h-8 w-8" src="/favicon.ico" alt="Logo" />
 							<span className="ml-2 font-bold">Next.js Blog</span>
 						</div>
 						<div className="flex justify-start">

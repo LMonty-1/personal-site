@@ -2,7 +2,6 @@
 
 import { useRouter } from 'next/router';
 import { Fragment } from 'react';
-import Navbar from '../../components/Navbar';
 
 function Feed() {
 	const router = useRouter();
@@ -11,11 +10,10 @@ function Feed() {
 
 	return (
 		<div>
-			<Navbar />
-			<div class="text-blue-600">
+			<div>
 				<h1> The Article Page(s)! </h1>
 			</div>
-			<h1> You've Requested {requestedArticle} </h1>
+			<h1> You&#39;ve Requested {requestedArticle} </h1>
 		</div>
 	);
 }
