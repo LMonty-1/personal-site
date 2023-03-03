@@ -1,4 +1,3 @@
-// pages/index.js
 import Link from 'next/link';
 import Image from 'next/image';
 import Navbar from '../components/Navbar';
@@ -6,10 +5,7 @@ import Navbar from '../components/Navbar';
 const HomePage = () => {
 	return (
 		<div className="bg-my-gray-100 min-h-screen">
-			{/* Navigation */}
 			<Navbar />
-
-			{/* Main content */}
 			<main>
 				<div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
 					<div className="px-4 py-6 sm:px-0">

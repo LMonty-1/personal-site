@@ -23,12 +23,12 @@ const Navbar = () => {
 								</Link>
 							</li>
 							<li>
-								<Link href="/contact">
+								<Link href="https://github.com/LMonty-1">
 									<a className="link mx-2">Github</a>
 								</Link>
 							</li>
 							<li>
-								<Link href="/contact">
+								<Link href="https://www.linkedin.com/in/luke-montgomery-a0a615148/">
 									<a className="link mx-2">Linkedin</a>
 								</Link>
 							</li>
